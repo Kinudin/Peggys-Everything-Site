@@ -5,14 +5,14 @@
 </div>
 	<nav>
 		<ul class="dropdown">
-			<li><a href="shop.php">Shop</a>
+			<li><a href="shop_.php">Shop</a>
 				<ul>
 					<li><a href="bags.php">Bags</a></li>
 					<li><a href="teacozies.php">Tea Cozies</a></li>
 					<li><a href="purses.php">Purses</a></li>
 				</ul>
 			</li>
-			<li><a href="customorder.php">Custom Order</a></li>
+			<!-- <li><a href="customorder.php">Custom Order</a></li> -->
 			<li><a href="process.php">Process</a></li>
 			<li><a href="lesson.php">Lesson</a></li>
 <!-- 			<li><a href="about.php">About</a></li>

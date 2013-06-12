@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-variant"
+			],
+			[
+				"var",
+				"font-variant"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"pA",
+				"pArrLength"
+			],
+			[
+				"pa",
+				"pageYOffset  (variable)"
+			],
+			[
+				"x",
+				"screenX  (variable)"
+			],
+			[
 				"padd",
 				"padding-left"
 			],
@@ -188,53 +212,88 @@
 	"buffers":
 	[
 		{
-			"file": "navigation.php",
+			"file": "shop_fashionBag.php",
 			"settings":
 			{
-				"buffer_size": 764,
+				"buffer_size": 2789,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!doctype html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title> Title </title>\n	<link rel=\"stylesheet\" href=\"reset.css\">\n	<link rel=\"stylesheet\" href=\"styles.css\">\n<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,400' rel='stylesheet' type='text/css'>\n\n	 <script src=\"jquery.js\"></script>\n</head>\n<body>\n<!-- 	<div class=\"tagLine\">\n		<a href=\"index.html\"><h1>Peggy's Everything</h1>\n		<h6>Your world is beautiful, carry it.</h6>\n		</a>\n	</div> -->\n	<?\n	include 'includes/_header.php';\n	?>\n\n\n<div class=\"container\">\n	<div class=\"shoppingMenu\">\n		<img src=\"images/shoppingcart.jpg\" alt=\"150x75\">\n		<h4>All products</h4>\n		<ul>\n			<li><a href=\"bags.html\">Bags</a></li>\n			<li><a href=\"teacozies.html\">Tea Cozies</a></li>\n			<li><a href=\"purses.html\">Purses</a></li>\n			<button onclick=\"addItem()\">Add To Cart!</button>\n		</ul>\n	</div>\n	<div class=\"leftColumn\">\n		<div class=\"productImage\">\n			<img src=\"http://dummyimage.com/300x300/000/fff\" alt=\"The picture of the purse goes in this place.\" id=\"bigImage\">\n			<img src=\"http://dummyimage.com/50x50/000/fff\" alt=\"The picture of the purse goes in this place.\">\n			<img src=\"http://dummyimage.com/50x50/000/fff\" alt=\"The picture of the purse goes in this place.\">\n			<img src=\"http://dummyimage.com/50x50/000/fff\" alt=\"The picture of the purse goes in this place.\">\n		</div>\n		<h3>Random Fashion Bag</h3>\n			<p>The archetypal tote is made of sturdy cloth, perhaps with thick leather at handles or bottom; leather versions often have a pebbled surface. Common fabrics include heavy canvas, possibly dyed, or treated to resist moisture and mold. Jute is another traditional material, though less popular. In recent decades, heavy nylon and other easy-care synthetics have become common, although these may degrade with prolonged sun-exposure. Many of today's inexpensive/free totes are often made from recycled matter, from minimally-processed natural fibers, or from byproducts of processes that refine organic materials.</p>\n			<h3>Details</h3>\n			<ul>\n				<li>Carries two gallons of milk, no problem!</li>\n				<li>Designed to be reversable, so you don't have to be seen wwith the same ba gin public two days in a row.</li>\n				<li>Eco Friendly materials</li>\n			</ul>\n			</p>\n\n		<div class=\"reviews\">\n		<blockquote>\n			The Reveiw Goes in Here! Create more by making more blockquotes\n			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, fugit voluptatibus dolores suscipit incidunt culpa harum aliquid ipsam obcaecati magni.\n		<footer>Reviewers Name Here</footer>\n		</blockquote>\n		<blockquote>\n			The Reveiw Goes in Here! Create more by making more blockquotes\n			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, illum ut laborum totam deserunt voluptatibus vel facere alias repellendus harum enim optio doloribus officiis quibusdam quisquam cumque eveniet nesciunt non amet dignissimos magni sequi hic natus maxime laboriosam reiciendis numquam dolor? Maiores distinctio mollitia cumque minima quae accusamus sint. Veritatis!\n		<footer>Reviewers Name Here</footer>\n		</blockquote>\n		<blockquote>\n			The review goes here!\n		<footer>Reviewers Name Here</footer>\n		</blockquote>\n		<blockquote>\n			The review goes here!\n		<footer>Reviewers Name Here</footer>\n		</blockquote>\n		<blockquote>\n			The review goes here!\n		<footer>Reviewers Name Here</footer>\n		</blockquote>\n		</div>\n		</div>\n\n	</div>\n	<script src=\"script.js\"></script>\n\n</body>\n</html>",
-			"file": "shop_pursedetail.php",
-			"file_size": 3550,
-			"file_write_time": 1370499974000000,
+			"contents": "<!doctype html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>Peggy's Everything</title>\n	<link rel=\"stylesheet\" href=\"reset.css\">\n	<link rel=\"stylesheet\" href=\"styles.css\">\n	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,400' rel='stylesheet' type='text/css'>\n\n	<script src=\"jquery.js\"></script>\n	<script src=\"script.js\"></script>\n\n</head>\n<body>\n	<?\n	include 'navigation.php';\n	?>\n\n	<div class=\"container\">\n\n		<div class=\"leftColumn\">\n\n			<h3>Contact Us!</h3>\n			<p>\n				Want something special?\n				<br><br>\n				Find out what's happening in your area, or if you just wanted to drop us a line to say how extremely awesome the bags are. \n				<br><br>\n				Maybe Peggy's Everything will be at a Farmers Market near you, so you could check out the extreme quality while you're in town.\n			</p>\n		</div>\n		<div class=\"rightColumn\" style=\"position: absolute;margin-left: 500px; width: 500px;\">\n            <h1>Contact Form :</h1>\n            <label>\n               <span>Full name</span>\n               <br>\n               <input type=\"text\" class=\"input_text\" name=\"name\" placeholder=\"Full Name\" id=\"name\"/>\n            </label><br>\n             <label>\n               <span>Email</span>\n               <br>\n               <input type=\"text\" class=\"input_text\" name=\"email\" placeholder=\"Email Address\" id=\"email\"/>\n            </label><br>\n             <label>\n                <span>Subject</span><br>\n                <input type=\"text\" class=\"input_text\" name=\"subject\" placeholder=\"Subject\"id=\"subject\"/>\n            </label>\n            <label><br>\n                <span>Message</span><br>\n                <textarea class=\"message\" name=\"feedback\" id=\"feedback\" placeholder=\"What do you want me to talk to you about?\" maxlength=\"400\"></textarea>\n                <br>\n                <input type=\"button\" class=\"button\" value=\"Submit Form\" onClick=submitPressed();>\n            </label>\n		</div>\n	</div>\n</body>\n</html>",
+			"file": "contact.php",
+			"file_size": 1961,
+			"file_write_time": 1370994294000000,
 			"settings":
 			{
-				"buffer_size": 3468,
-				"line_ending": "Windows"
+				"buffer_size": 1961,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>Peggy's Everything | The Process</title>\n	<link rel=\"stylesheet\" href=\"reset.css\">\n	<link rel=\"stylesheet\" href=\"styles.css\">\n	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,400' rel='stylesheet' type='text/css'>\n\n	<script src=\"jquery.js\"></script>\n	<script src=\"script.js\"></script>\n\n</head>\n<body>\n	<?\n	include 'navigation.php';\n	?>\n\n	<div class=\"container\">\n		<div class=\"leftColumn\">\n			<h3>The Magic Happening</h3>\n			<p>\n				The original product was the bag.\n				<br><br>\n				Each bag is hand crafted and tripple stitched to ensure a strong hold that can stand up to even the toughest of \n				<br><br>\n				With years of passion and experience in the sewing industry as a seamstress for Disney, the product you receive will be of the utmost quality.\n			</p>\n		</div>\n		<div class=\"rightColumn\">\n			<!-- Environmental Awareness section -->\n				<img src=\"images/environmentalAwareness.jpg\" alt=\"Environmental Awareness\">\n				<ul>\n					<h3> 100% Organic Material</h3>\n					<li>Made from cotton materials</li>\n					<li>Cotton is completely washable, using absolutely zero plastic to fill up your trash can -- or the landfill</li>\n					<li>Convenient to have in your car for those unexpected shopping trip.</li>\n				</ul>\n		</div>\n	</div>\n</body>\n</html>",
+			"file": "process.php",
+			"file_size": 1294,
+			"file_write_time": 1370943044000000,
+			"settings":
+			{
+				"buffer_size": 1360,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1930,
+				"buffer_size": 1824,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mail.php",
-			"settings":
-			{
-				"buffer_size": 510,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "enviro.php",
-			"settings":
-			{
-				"buffer_size": 1020,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "includes/_header.php",
 			"settings":
 			{
-				"buffer_size": 764,
+				"buffer_size": 783,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shop_.php",
+			"settings":
+			{
+				"buffer_size": 3331,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shop_skulldetail.php",
+			"settings":
+			{
+				"buffer_size": 2246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shop_cherrydetail.php",
+			"settings":
+			{
+				"buffer_size": 2243,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shop_edcdetail.php",
+			"settings":
+			{
+				"buffer_size": 2692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shop_grannyteashop.php",
+			"settings":
+			{
+				"buffer_size": 2682,
 				"line_ending": "Unix"
 			}
 		},
@@ -242,7 +301,7 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 1491,
+				"buffer_size": 3967,
 				"line_ending": "Unix"
 			}
 		},
@@ -250,26 +309,15 @@
 			"file": "styles.css",
 			"settings":
 			{
-				"buffer_size": 4470,
+				"buffer_size": 4642,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Random Fashion Bag\nThe archetypal tote is made of sturdy cloth, perhaps with thick leather at handles or bottom; leather versions often have a pebbled surface. Common fabrics include heavy canvas, possibly dyed, or treated to resist moisture and mold. Jute is another traditional material, though less popular. In recent decades, heavy nylon and other easy-care synthetics have become common, although these may degrade with prolonged sun-exposure. Many of today's inexpensive/free totes are often made from recycled matter, from minimally-processed natural fibers, or from byproducts of processes that refine organic materials.\n\nPurse Details\nCarries two gallons of milk, no problem!\nDesigned to be reversable, so you don't have to be seen wwith the same ba gin public two days in a row.\nEco Friendly materials\n\n\nProduct Reviews\n\nThis is a review! With review like properties. I like this bag, obviously!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, reprehenderit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, sint.\n\nJohn Resig\n\n\nI wouldn't go anywhere without this bag. I get so many compliments on it whenever I go out. Its versatility makes everything so much easier.\nDebrah Fashionista\n\n\nIf you need something that nicely fits everything, and is washable without damage, this is your bag. I have been using this bag for about 3 years and it's only faded because of how many times I've washed it.\nJillian McArthy\n\n\nThis is a review! With review like properties. I like this bag, obviously!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, reprehenderit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, sint.\nJohn Resig\n\n",
-			"file": "bodycopy.txt",
-			"file_size": 0,
-			"file_write_time": 1369611001000000,
-			"settings":
-			{
-				"buffer_size": 1697,
-				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 27.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
@@ -449,7 +497,7 @@
 				"Package Control: Discover Packages"
 			]
 		],
-		"width": 602.0
+		"width": 588.0
 	},
 	"console":
 	{
@@ -466,7 +514,25 @@
 	},
 	"file_history":
 	[
+		"/Users/ericcross/Documents/Sites/Peggys Everything/shop_cherrydetail.php",
+		"/Users/ericcross/Dropbox/School/2013/Spring 2013/Intermediate Authoring/Week 07/TimerExample.as",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/navigation.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/styles.css",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/script.js",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/shop_wallBag.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/shop_beadedBags.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/shop_generalBag.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/shop_givingTree.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/shop_grannyteashop.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/shop_edcdetail.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/shop_skulldetail.php",
 		"/Users/ericcross/Documents/Sites/Peggys Everything/shop.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/bodycopy.txt",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/shop_pursedetail.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/index.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/mail.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/enviro.php",
+		"/Users/ericcross/Documents/Sites/Peggys Everything/includes/_header.php",
 		"/Users/ericcross/Documents/Sites/Peggys Everything/about.php",
 		"/Users/ericcross/Documents/Sites/Peggys Everything/pursedetail.php",
 		"/Users/ericcross/Documents/Sites/Peggys Everything/phptest.php",
@@ -477,7 +543,6 @@
 		"/Users/ericcross/Documents/Sites/Peggys Everything/index.html",
 		"/Users/ericcross/Documents/Sites/Peggys Everything/pursetemplate.html",
 		"/Users/ericcross/Documents/Sites/Peggys Everything/jquery.validate.pack.js",
-		"/Users/ericcross/Documents/Sites/Peggys Everything/index.php",
 		"/Users/ericcross/Documents/Sites/Peggys Everything/contactable.css",
 		"/Users/ericcross/Documents/Sites/Peggys Everything/jquery.js",
 		"/Users/ericcross/Documents/Sites/Peggys Everything/reset.css",
@@ -576,14 +641,7 @@
 		"/Volumes/Nexus/School/Winter 2013/Intermediate Web Based Programming/Week 4/Exercises/dom2.html",
 		"/Volumes/Nexus/School/Winter 2013/Intermediate Web Based Programming/Week 4/Exercises/dom4.html",
 		"/Volumes/Nexus/School/Winter 2013/Intermediate Web Based Programming/Week 4/Exercises/dom2home.html",
-		"/Volumes/Nexus/School/Winter 2013/Intermediate Web Based Programming/Week 4/multiplicationtable.html",
-		"/Users/ericcross/Documents/Code game/101 to 1.html",
-		"/Volumes/Nexus/School/Winter 2013/Intermediate Web Based Programming/Week 4/hello.html",
-		"/Volumes/Nexus/School/Winter 2013/Intermediate Web Based Programming/Week 4/finshedhomework.html",
-		"/Volumes/Nexus/School/Winter 2013/Intermediate Web Based Programming/Week 4/name2.html",
-		"/Volumes/Nexus/School/Winter 2013/Intermediate Web Based Programming/Week 4/name.html",
-		"/Users/ericcross/Documents/Code game/style.css",
-		"/Users/ericcross/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
+		"/Volumes/Nexus/School/Winter 2013/Intermediate Web Based Programming/Week 4/multiplicationtable.html"
 	],
 	"find":
 	{
@@ -602,6 +660,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"0",
+			"http://placehold.it/300x300",
+			"image",
+			"cozies",
+			"http://placehold.it/300x300/",
+			"http://placehold.it/300x300",
+			"0",
+			"Thev",
+			"0",
+			"you",
+			"400",
+			"300x160",
+			"50x50",
 			"span",
 			"<span class=\"prodNum\"></span>",
 			" <span class=\"prodImage\"></span>",
@@ -728,29 +799,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "navigation.php",
+					"file": "shop_fashionBag.php",
 					"settings":
 					{
-						"buffer_size": 764,
+						"buffer_size": 2789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								131,
-								131
+								739,
+								739
 							]
 						],
 						"settings":
 						{
 							"is_xml": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -761,52 +832,52 @@
 				},
 				{
 					"buffer": 1,
-					"file": "shop_pursedetail.php",
+					"file": "contact.php",
 					"settings":
 					{
-						"buffer_size": 3468,
+						"buffer_size": 1961,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1049,
-								1049
+								1342,
+								1342
 							]
 						],
 						"settings":
 						{
 							"is_xml": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 230.0,
+						"translation.y": 26.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "index.php",
+					"file": "process.php",
 					"settings":
 					{
-						"buffer_size": 1930,
+						"buffer_size": 1360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								392,
-								392
+								532,
+								532
 							]
 						],
 						"settings":
 						{
 							"is_xml": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -817,18 +888,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "mail.php",
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 510,
+						"buffer_size": 1824,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								510,
-								510
+								1503,
+								1503
 							]
 						],
 						"settings":
@@ -845,18 +916,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "enviro.php",
+					"file": "includes/_header.php",
 					"settings":
 					{
-						"buffer_size": 1020,
+						"buffer_size": 783,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								503,
-								503
+								521,
+								521
 							]
 						],
 						"settings":
@@ -873,18 +944,146 @@
 				},
 				{
 					"buffer": 5,
-					"file": "includes/_header.php",
+					"file": "shop_.php",
 					"settings":
 					{
-						"buffer_size": 764,
+						"buffer_size": 3331,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								131,
-								131
+								749,
+								769
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "shop_skulldetail.php",
+					"settings":
+					{
+						"buffer_size": 2246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1014,
+								1014
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "shop_cherrydetail.php",
+					"settings":
+					{
+						"buffer_size": 2243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								964,
+								964
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "shop_edcdetail.php",
+					"settings":
+					{
+						"buffer_size": 2692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								860,
+								860
+							],
+							[
+								942,
+								942
+							],
+							[
+								989,
+								989
+							],
+							[
+								1036,
+								1036
+							],
+							[
+								1083,
+								1083
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "shop_grannyteashop.php",
+					"settings":
+					{
+						"buffer_size": 2682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1095,
+								1095
 							]
 						],
 						"settings":
@@ -906,26 +1105,27 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": "script.js",
 					"settings":
 					{
-						"buffer_size": 1491,
+						"buffer_size": 3967,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1406,
-								1406
+								1102,
+								1102
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -934,19 +1134,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 11,
 					"file": "styles.css",
 					"settings":
 					{
-						"buffer_size": 4470,
+						"buffer_size": 4642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2504,
-								2504
+								4509,
+								4509
 							]
 						],
 						"settings":
@@ -955,34 +1155,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2667.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "bodycopy.txt",
-					"settings":
-					{
-						"buffer_size": 1697,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1085,
-								1085
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5129.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1018,7 +1191,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.486247315668,
 			1.0
 		],
 		"rows":
@@ -1039,32 +1212,108 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"index.php"
+			],
+			[
+				"gra",
+				"shop_grannyteashop.php"
+			],
+			[
+				"edc",
+				"shop_edcdetail.php"
+			],
+			[
+				"cher",
+				"shop_cherrydetail.php"
+			],
+			[
+				".css",
+				"styles.css"
+			],
+			[
+				"skul",
+				"shop_skulldetail.php"
+			],
+			[
+				"cherr",
+				"shop_cherrydetail.php"
+			],
+			[
+				".js",
+				"script.js"
+			],
+			[
+				"wall",
+				"shop_wallBag.php"
+			],
+			[
+				"bea",
+				"shop_beadedBags.php"
+			],
+			[
+				"gener",
+				"shop_generalBag.php"
+			],
+			[
+				"giving",
+				"shop_givingTree.php"
+			],
+			[
+				"gran",
+				"shop_grannyteashop.php"
+			],
+			[
+				"ed",
+				"shop_edcdetail.php"
+			],
+			[
+				"bag",
+				"shop_fashionBag.php"
+			],
+			[
+				"sk",
+				"shop_skulldetail.php"
+			],
+			[
+				"shop",
+				"shop_.php"
+			],
+			[
 				"head",
 				"includes/_header.php"
+			],
+			[
+				"he",
+				"includes/_header.php"
+			],
+			[
+				"pro",
+				"process.php"
+			],
+			[
+				"sho",
+				"shop.php"
+			],
+			[
+				"nav",
+				"navigation.php"
+			],
+			[
+				"ind",
+				"index.php"
 			],
 			[
 				"in",
 				"index.php"
 			],
 			[
-				"ind",
-				"index.html"
-			],
-			[
 				"temp",
 				"pursetemplate.html"
 			],
 			[
-				"sho",
-				"shop.html"
-			],
-			[
 				"purse",
 				"pursedetail.html"
-			],
-			[
-				"shop",
-				"shop.html"
 			],
 			[
 				"env",
@@ -1073,10 +1322,6 @@
 			[
 				"index",
 				"index.php"
-			],
-			[
-				"inde",
-				"index.html"
 			],
 			[
 				"cont",
@@ -1113,10 +1358,6 @@
 			[
 				"index.ht",
 				"index.html"
-			],
-			[
-				".js",
-				"math.js"
 			],
 			[
 				"theme",
@@ -1179,10 +1420,6 @@
 				"stylesheets/skeleton.css"
 			],
 			[
-				"sk",
-				"stylesheets/skeleton.css"
-			],
-			[
 				"st",
 				"/Users/ericcross/styles.css"
 			],
@@ -1203,15 +1440,35 @@
 		"selected_items":
 		[
 			[
+				"ip",
+				"/Users/ericcross/Dropbox/Subime Projects/iPadtaxitab.sublime-project"
+			],
+			[
+				"ipad",
+				"/Users/ericcross/Documents/Sites/Interface Design II/iPad Final/ipadFinal.sublime-project"
+			],
+			[
+				"bee",
+				"/Users/ericcross/Documents/Sites/Beer Site Revision/Beer Project Revision.sublime-project"
+			],
+			[
+				"",
+				"/Users/ericcross/Dropbox/Subime Projects/iPadtaxitab.sublime-project"
+			],
+			[
+				"tax",
+				"/Users/ericcross/Dropbox/Subime Projects/iPadtaxitab.sublime-project"
+			],
+			[
+				"be",
+				"/Users/ericcross/Documents/Sites/Beer Site Revision/Beer Project Revision.sublime-project"
+			],
+			[
 				"di",
 				"/Users/ericcross/Dropbox/School/2013/Spring 2013/Digital Typography/Final Project/digitaltype.sublime-project"
 			],
 			[
 				"d",
-				"/Users/ericcross/Dropbox/School/2013/Spring 2013/Digital Typography/Final Project/digitaltype.sublime-project"
-			],
-			[
-				"",
 				"/Users/ericcross/Dropbox/School/2013/Spring 2013/Digital Typography/Final Project/digitaltype.sublime-project"
 			]
 		],

@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title> Peggys Everything | Snazzy Beaded Bags</title>
+	<title> Peggys Everything | The Wall Bag </title>
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="styles.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,400' rel='stylesheet' type='text/css'>
-
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,400' rel='stylesheet' type='text/css'>
 	 <script src="jquery.js"></script>
 </head>
 <body>
@@ -38,15 +37,15 @@
 			   <img src="http://placehold.it/300x300/edc" />
 			</div>  
 		</div>
-		<h3>Beaded Bags</h3>
+		<h3>The Bag on a Wall</h3>
 			<p>
-				Need some spicing up in the clutch department? These beaded bags come with geometric patterns that are pleasing to the eye, and mesmerize potential thieves. 
+				This bag on the wall comes equipped with a strap to go around your shoulder. Obviously I'm not an advertising major since I couldn't sell food to a starving person.
 			</p>
 			<h3>Details</h3>
 			<ul>
-				<li>Beads aren't eco friendly, sadly. They're plastic.</li>
-				<li>Gives you that festival feeling.</li>
-				<li>Everything always comes in threes.</li>
+				<li>The strap is cushioned with foam to let you carry all you want!</li>
+				<li>Going out to a bar? This bag doesn't need a bar-hook. It can hang on your chair!</li>
+				<li>Eco Friendly materials</li>
 			</ul>
 			</p>
 

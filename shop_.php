@@ -17,11 +17,11 @@
 		<div class="shoppingMenu">
 			<img src="images/shoppingcart.jpg" alt="150x75">
 			<h4>All products</h4>
-			<ul>
-				<li><a href="bags.html">Bags</a></li>
-				<li><a href="teacozies.html">Tea Cozies</a></li>
-				<li><a href="purses.html">Purses</a></li>
-			</ul>
+		<ul>
+			<li><a href="bags_shop.php">Bags</a></li>
+			<li><a href="teacozies.php">Tea Cozies</a></li>
+			<li><a href="purses.php">Purses</a></li>
+		</ul>
 		</div>
 		<div class="shopPage">
 			<div class="item">

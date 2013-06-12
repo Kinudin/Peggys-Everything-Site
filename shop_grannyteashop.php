@@ -20,19 +20,23 @@
 		<img src="images/shoppingcart.jpg" alt="150x75">
 		<h4>All products</h4>
 		<ul>
-			<li><a href="bags.html">Bags</a></li>
-			<li><a href="teacozies.html">Tea Cozies</a></li>
-			<li><a href="purses.html">Purses</a></li>
-			<button onclick="addItem()">Add To Cart!</button>
+			<li><a href="bags_shop.php">Bags</a></li>
+			<li><a href="teacozies.php">Tea Cozies</a></li>
+			<li><a href="purses.php">Purses</a></li>
 		</ul>
 	</div>
 	<div class="leftColumn">
 		<div class="productImage">
-			<img src="http://dummyimage.com/300x300/000/fff" alt="The picture of the purse goes in this place." id="bigImage">
-			<img src="http://dummyimage.com/50x50/000/fff" alt="The picture of the purse goes in this place.">
-			<img src="http://dummyimage.com/50x50/000/fff" alt="The picture of the purse goes in this place.">
-			<img src="http://dummyimage.com/50x50/000/fff" alt="The picture of the purse goes in this place.">
+			<div class="bigImage">
+			  <img src="images/cozies/gtsCozy1.jpg" />
+			</div>
 
+			<div class="thumbs">
+			   <img src="images/cozies/gtsCozy2.jpg" />
+			   <img src="images/cozies/gtsCozy3.jpg" />
+			   <img src="images/cozies/gtsCozy4.jpg" />
+			   <img src="images/cozies/gtsCozy5.jpg" />
+			</div>  
 		</div>
 		<h3>Granny's Tea Shop</h3>
 			<p>
@@ -48,25 +52,24 @@
 
 		<div class="reviews">
 		<blockquote>
-			I needed something to give my table spread a 
-			<footer>Reviewers Name Here</footer>
+			Most other, less expensive, tea cozies have only an elasticized open-bottom, so your teapot cannot retain the heat as well.
+			<footer>Rosy Homemaker</footer>
 		</blockquote>
 		<blockquote>
-			The Reveiw Goes in Here! Create more by making more blockquotes
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, illum ut laborum totam deserunt voluptatibus vel facere alias repellendus harum enim optio doloribus officiis quibusdam quisquam cumque eveniet nesciunt non amet dignissimos magni sequi hic natus maxime laboriosam reiciendis numquam dolor? Maiores distinctio mollitia cumque minima quae accusamus sint. Veritatis!
-		<footer>Reviewers Name Here</footer>
+			Fits a 4-6 cup pot perfectly. Keeps tea warm so you don't have to rush. Its made well from quality fabrics. Nice details too.
+			<footer>Lora Moran</footer>
 		</blockquote>
 		<blockquote>
-			The review goes here!
-		<footer>Reviewers Name Here</footer>
+			This tea cozy is beautiful and beautifully made! And it really keeps my teapot warm to the last drop of tea!
+		<footer>Cloetta Shotts</footer>
 		</blockquote>
 		<blockquote>
-			The review goes here!
-		<footer>Reviewers Name Here</footer>
+			This Tea Cozie does the job! It is a great quality product that keeps tea or coffee nice and hot. The insulation goes all around and, importantly, UNDER the pot so that there is no heat loss there. It is substantial in thickness (insulation). Many cozies are thin and only have elastic around the bottom exposing the bottom of the pot thus losing the heat. Why bother?
+		<footer>Phyllis V Baker</footer>
 		</blockquote>
 		<blockquote>
-			The review goes here!
-		<footer>Reviewers Name Here</footer>
+			Great quality product. Love the design as it fits snuggly around the teapot. This keep the tea warm and let's me serve tea time in style with made in the USA charm. I'd buy another for a friend!
+		<footer>Sean Bell</footer>
 		</blockquote>
 		</div>
 		</div>

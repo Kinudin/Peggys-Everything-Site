@@ -17,14 +17,7 @@
 	?>
 
 	<div class="container">
-
 		<div class="leftColumn">
-
-			<!-- Tha slidah -->
-				<img src="http://dummyimage.com/650x280/000/fff.jpg" alt="This is going to be a slider">
-				<div class="caption">Here is some Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, rem, molestiae, facilis qui doloremque delectus tempore nesciunt dignissimos impedit commodi distinctio suscipit praesentium nobis cumque omnis mollitia vero fugit. Eveniet?
-				</div>
-			<!-- End of Tha Slidah-->
 
 			<h3>About</h3>
 			<p>

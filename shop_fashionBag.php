@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title> Peggys Everything | Snazzy Beaded Bags</title>
+	<title> Peggys Everything | Random Fashion Bag </title>
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="styles.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,400' rel='stylesheet' type='text/css'>
@@ -38,15 +38,15 @@
 			   <img src="http://placehold.it/300x300/edc" />
 			</div>  
 		</div>
-		<h3>Beaded Bags</h3>
+		<h3>The Random Fashion Bag</h3>
 			<p>
-				Need some spicing up in the clutch department? These beaded bags come with geometric patterns that are pleasing to the eye, and mesmerize potential thieves. 
+				The ORIGINAL! This random fashion bag is what started the revolution of bagness. Its horozontal stripes make it difficult to know how much actually is in this bag. Also the black and white stripes make it fit in both during the daytime walk around the park, and blend in at night for those after dark adventures.
 			</p>
 			<h3>Details</h3>
 			<ul>
-				<li>Beads aren't eco friendly, sadly. They're plastic.</li>
-				<li>Gives you that festival feeling.</li>
-				<li>Everything always comes in threes.</li>
+				<li>Tripple stitched for the utmost strength</li>
+				<li>Ties for a variable length on the shoulder</li>
+				<li>Eco Friendly materials</li>
 			</ul>
 			</p>
 
