@@ -62,3 +62,8 @@ $(function() {
     };
 });
 
+
+
+function submitPressed(){
+    alert('Thanks for submitting! \n');
+}

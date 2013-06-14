@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FormTest</title>
+	<script type="text/javascript"> 
+
+function setValue(){ 
+
+myVariable= document.forms["myform"]["text1"].value 
+
+alert("myVariable = "+myVariable) 
+
+} 
+
+</script> 
+</head>
+<body>
+
+
+<form name="myform"> 
+<input type="text" name="text1" value="Hello"> 
+<input type="button" value="Set Value" onclick="setValue()"> 
+</form>  
+</body>
+</html>

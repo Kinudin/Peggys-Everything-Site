@@ -27,14 +27,13 @@
 	<div class="leftColumn">
 		<div class="productImage">
 			<div class="bigImage">
-			  <img src="http://placehold.it/300x300/cf5" />
+			  <img src="images/Bags/clothTote1.png" />
 			</div>
 
 			<div class="thumbs">
-			   <img src="http://placehold.it/300x300/444" />
-			   <img src="http://placehold.it/300x300/000" />
-			   <img src="http://placehold.it/300x300/fff" />
-			   <img src="http://placehold.it/300x300/edc" />
+			   <img src="images/Bags/clothTote2.png" />
+			   <img src="images/Bags/clothTote3.png" />
+			   <img src="images/Bags/clothTote4.png" />
 			</div>  
 		</div>
 		<h3>The Giving Tree Tote</h3>

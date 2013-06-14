@@ -202,7 +202,7 @@ nav a {
 
 }
 .hover span {
-	padding-left: 15px;
+	padding-left: 5px;
 	-webkit-transition: .3s;
 	-moz-transition: .3s;
 	-ms-transition: .3s;
@@ -212,8 +212,8 @@ nav a {
 
 
 .input_text {
-	background-color: black;
-}
+/*	background-color: black;
+*/}
 
 .leftColumn {
 	width: 650px;
@@ -354,4 +354,10 @@ ul.dropdown li:hover > ul {
 .fullColumn{
 	float: none;
 	width: 100%;
+}
+
+textarea[name=feedback]{
+	width: 250px;
+	height: 200px;
+	resize: none;
 }

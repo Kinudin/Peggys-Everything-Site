@@ -28,14 +28,14 @@
 	<div class="leftColumn">
 		<div class="productImage">
 			<div class="bigImage">
-			  <img src="http://placehold.it/300x300/cf5" />
+			  <img src="images/Bags/rfb1.jpg" />
 			</div>
 
 			<div class="thumbs">
-			   <img src="http://placehold.it/300x300/444" />
-			   <img src="http://placehold.it/300x300/000" />
-			   <img src="http://placehold.it/300x300/fff" />
-			   <img src="http://placehold.it/300x300/edc" />
+			   <img src="images/Bags/rfb2.jpg" />
+			   <img src="images/Bags/rfb3.jpg" />
+			   <img src="images/Bags/rfb4.jpg" />
+			   <img src="images/Bags/rfb5.jpg" />
 			</div>  
 		</div>
 		<h3>The Random Fashion Bag</h3>

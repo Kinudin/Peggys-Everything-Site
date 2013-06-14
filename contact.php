@@ -30,13 +30,12 @@
 			</p>
 		</div>
 		<div class="rightColumn" style="position: absolute;margin-left: 500px; width: 500px;">
-			<form id="payment">
-	            <h1>Contact Form :</h1>
+			<form name="payment">
 	            <label>
-	               <span>Full name</span>
-	               <br>
-	               <input type="text" class="input_text" name="name" placeholder="Full Name" id="name"/>
-	            </label><br>
+	               	<span>Full name</span>
+	               	<br>
+					<input type="text" name="text1" placeholder='Full Name'> 
+				</label><br>
 	             <label>
 	               <span>Email</span>
 	               <br>
@@ -48,7 +47,7 @@
 	            </label>
 	            <label><br>
 	                <span>Message</span><br>
-	                <textarea class="message" name="feedback" id="feedback" placeholder="What can I help you with?" maxlength="400"></textarea>
+	                <textarea class="message" name="feedback" id="feedback" placeholder="What can I help you with?" maxlength="400" resizeable='false'></textarea>
 	                <br>
 	                <input type="button" class="button" value="Send away!" onClick=submitPressed();>
 	            </label>

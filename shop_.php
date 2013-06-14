@@ -60,44 +60,29 @@
 				<a href="shop_generalBag.php">
 				<img src="images/genBag.jpg" alt="150x75" /> 
 				<span class="prodName">General Bag</span><br>
-				<span class="prodPrice">$15.00</span>
+				<span class="prodPrice">$5.00</span>
 				</a>
 			</div>
 				<div class="item">
 				<a href="shop_beadedBags.php">
 				<img src="images/beadedBags.jpg" alt="150x75" /> 
 				<span class="prodName">Beaded Goodness</span><br>
-				<span class="prodPrice">$15.00</span>
+				<span class="prodPrice">$20.00</span>
 				</a>
 			</div>
 			<div class="item">
 				<a href="shop_wallBag.php">
 				<img src="images/wallBag.jpg" alt="150x75" /> 
 				<span class="prodName">Hang on the Wall Bag</span><br>
-				<span class="prodPrice">$15.00</span>
+				<span class="prodPrice">$25.00</span>
 				</a>
 			</div>
 			<div class="item">
 				<a href="shop_fashionBag.php">
 				<img src="images/fashionBag.jpg" alt="150x75" /> 
 				<span class="prodName">Random Fashion Bag</span><br>
-				<span class="prodPrice">$15.00</span>
+				<span class="prodPrice">$55.00</span>
 				</a>
-			</div>
-			<div class="item">
-				<img src="http://placehold.it/160x161" alt="150x75" /> 
-				<span class="prodName">Nifty Skull Bag</span><br>
-				<span class="prodPrice">$15.00</span>
-			</div>
-			<div class="item">
-				<img src="http://placehold.it/160x161" alt="150x75" /> 
-				<span class="prodName">Nifty Skull Bag</span><br>
-				<span class="prodPrice">$15.00</span>
-			</div>
-			<div class="item">
-				<img src="http://placehold.it/160x161" alt="150x75" /> 
-				<span class="prodName">Nifty Skull Bag</span><br>
-				<span class="prodPrice">$15.00</span>
 			</div>
 		</div>
 	</div>
